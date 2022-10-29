@@ -23,6 +23,7 @@ while True:
             font = cv2.FONT_HERSHEY_SIMPLEX
             cv2.imshow('text detection', frame)
             if cv2.waitKey(1) & 0xFF == ord('s'):
+                print(imgchar)
                 break
 cap.release()
 cv2.destroyAllWindows()
